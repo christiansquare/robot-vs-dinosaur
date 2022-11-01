@@ -10,6 +10,7 @@ print(Player_one.health)
 
 Computer=Dinosaur
 print(Computer.name)
+print(Computer.attack_power)
 print(Computer.health)
 Defense=Weapons
 
