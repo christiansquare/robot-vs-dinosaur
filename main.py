@@ -1,25 +1,20 @@
 
-
-from multiprocessing.heap import Arena
 from robots import Robots
 from dinosaur import Dinosaur
 from weapons import Weapons
 from battlefields import Battlefields
 
-Player_one=Robots
-
-
+Player_one=Robots()
+print(Player_one.name)
+print(Player_one.health)
 Computer=Dinosaur
-
-
+print(Player_one.__name__)
+print(Player_one.health)
 Defense=Weapons
 
 Weapon=input('choose your weapon of choice')
 print=(Weapon)
 
-Defense=['crossbow','flame thrower', 'sword','axe','ak-47']
-for i in Defense:
- print(Defense)
 
 
 Arenas = Battlefields

@@ -3,7 +3,7 @@ from weapons import Weapons
 
 class Robots:
 
-    def _init_(self):
+    def _init_(self,name):
         self.name=''
         self.health=100
         self.active_weapon= Weapons()
