@@ -7,9 +7,8 @@ from battlefields import Battlefields
 Player_one=Robots()
 print(Player_one.name)
 print(Player_one.health)
+
 Computer=Dinosaur
-print(Player_one.__name__)
-print(Player_one.health)
 Defense=Weapons
 
 Weapon=input('choose your weapon of choice')
