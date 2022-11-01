@@ -17,11 +17,10 @@ Defense=Weapons
 Weapon=input('choose your weapon of choice')
 print=(Weapon)
 
+Defense=['crossbow','flame thrower', 'sword','axe','ak-47']
+for i in Defense:
+ print(Defense)
 
-
-Weapons=[Weapons]
-Weapons=('crossbow '("attack_power" (300)),'flame thrower'('attack_power'(700)), 'sword'('attack_power'(100)),'axe','ak-47'('attack_power'(50)))
-print(Weapons)
 
 Arenas = Battlefields
 
