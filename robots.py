@@ -1,12 +1,13 @@
+from tkinter.font import names
 from weapons import Weapons
 
 
 class Robots:
 
-    def _init_(self,names_passed_in,Weapons_passed_in):
-        self.name=names_passed_in
+    def __init__(self,names):
+        self.name=names
         self.health=100
-        self.active_weapon= Weapons_passed_in()
+        self.active_weapon= Weapons("crossbow",500)
         
     
     def attack(self,dinosaur):

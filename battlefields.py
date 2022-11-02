@@ -5,7 +5,7 @@ from robots import Robots
 class Battlefields:
     def __init__(self):
       self.robot= Robots
-      self.dinosaur= Dinosaur("Barnie" ,3000)
+      self.dinosaur= Dinosaur("destroyer" ,3000)
 
     def run_game(self):
         pass
