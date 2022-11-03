@@ -23,13 +23,12 @@ print(Computer.health)
 print(Computer.attack_power)
 
 
-Back_Up_Weapon_Optional=Weapons
-print(Back_Up_Weapon_Optional.name)
-print(Back_Up_Weapon_Optional.attack)
+Back_Up_Weapon_Optional=Weapons("SPECIAL MOVE","PUNISHER SLASH")
+print(Back_Up_Weapon_Optional.name,(Back_Up_Weapon_Optional.attack))
 
 
 
-Arenas = Battlefields
-print(Battlefields.robot)
-print(Battlefields.dinosaur)
+
+Arenas = Battlefields()
+Arenas.run_game
 
