@@ -29,6 +29,8 @@ print(Back_Up_Weapon_Optional.name,(Back_Up_Weapon_Optional.attack))
 
 
 
-Arenas = Battlefields()
+Arenas = Battlefields("WHO WILL PREVAIL!")
+print(Arenas.dinosaur)
+
 Arenas.run_game
 
